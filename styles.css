@@ -1,0 +1,131 @@
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color:lightseagreen;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #333;
+    color:darkkhaki;
+    padding: 10px 0;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:cornflowerblue;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ffc107;
+}
+
+/* Hero section */
+.hero {
+    background-image: url('room\ image.webp'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    color:azure;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color:cadetblue;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Services section */
+#services {
+    padding: 40px 0;
+    background-color:#007bff;
+}
+
+#services h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.service {
+    margin-bottom: 30px;
+}
+
+.service h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color:aquamarine;
+}
+
+.service p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Footer */
+footer {
+    background-color:aqua;
+    color: ;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    font-size: 1rem;
+}
